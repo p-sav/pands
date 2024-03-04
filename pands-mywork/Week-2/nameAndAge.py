@@ -3,4 +3,4 @@
 # author p-sav
 
 name = input ("Enter your name ")
-print('hello ' + name + '\nyour age is 21')
+print('hello ' + name + "\t"'your age is 21')
