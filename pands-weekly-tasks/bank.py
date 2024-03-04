@@ -3,9 +3,12 @@
 # author: p-sav
 
 
-num1 = input ("Enter amount 1 (in cent) ")
-num2 = input ("Enter amount 2 (in cent) ")
-sum = (num1 * num2)
-print (sum)
+num1 = int(input("Enter amount 1 (in cent) "))
+num2 = int(input ("Enter amount 2 (in cent) "))
+result = (num1 + num2)
+
+result_in_euros = result / 100
+
+print ("sum: €", result_in_euros)
 
 
